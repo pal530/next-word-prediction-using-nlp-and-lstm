@@ -1,13 +1,14 @@
-# Char RNN PyTorch
+# Char RNN next-word-prediction-using-nlp-and-lstm
 
-Minimalist code for character-level language modelling using Multi-layer Recurrent Neural Networks (LSTM) in PyTorch. The RNN is trained to predict next letter in a given text sequence. The trained model can then be used to generate a new text sequence resembling the original data.
+
+Minimalist code for character-level language modelling using Multi-layer Recurrent Neural Networks (LSTM) in keras. The RNN is trained to predict next letter in a given text sequence. The trained model can then be used to generate a new text sequence resembling the original data.
 
 ## Requirements
 
 Trained and tested on:
 
 - `Python 3.6`
-- `PyTorch 1.0`
+- `keras 2.10.1`
 - `NumPy 1.16.3`
 
 ## Usage
@@ -50,30 +51,4 @@ Go tell you.
 ```
 
 -----------------------------------------------------------------
-
-**Sherlock Holmes Dataset (~ 15 epochs) :**
-```
- Mr. Holmes had drawn up and again so brick, at west who closed upon
- the loud broken pallow and a cabmon ta the chair that we had fired
- out.
-
- "I wished in," said Holmes sobbily, "trust in the light. I said that you
- have to do with Gardens, come, you will pass you
- light, so you print?"
-
- "We are it is impossible."
-
- "I know that so submer a case here did he give you after I
- tell you?"
-
- "Ah, sir, I keep them, Watson," I said a tueler
- inspectoruded upon either way. "Home!" said Admirable
- Street. "But not considered a memory, which it was to complice him."
-
- I had so vallemed found me about this gloomy men.
-```
-
-
-## Acknowledgements
-This code is based on the [char-rnn](https://github.com/karpathy/char-rnn) and [min-char-rnn](https://gist.github.com/karpathy/d4dee566867f8291f086) code by Andrej Karpathy, which is in turn based on Oxford University Machine Learning class [practical 6](https://github.com/oxford-cs-ml-2015/practical6), which is in turn based on [learning to execute](https://github.com/wojciechz/learning_to_execute) code from Wojciech Zaremba.
 
